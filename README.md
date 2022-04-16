@@ -1,4 +1,4 @@
-# Python Learnings
+# Python Learnings 🐍
 
 1. Input & Output
 2. Formatted output
@@ -17,5 +17,6 @@
 15. Flow control 6: else with for loops
 16. Flow control 7: nestead loops
 17. Flow control 8: 'in' vs 'in range'
+18. String formatting
 
 ![banner image](banner.png)
