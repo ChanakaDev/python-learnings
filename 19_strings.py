@@ -128,6 +128,22 @@ Other string functions
 **********************
 '''
 
+'''
+python, string functions
+=====================================================
+
+    (*) lower()     : str.lower() 
+    (*) islower()   : str.islower()
+    (*) upper()     : str.upper()
+    (*) isupper()   : str.isupper()
+    (*) strip()     : str.strip() 
+    (*) isdigit()   : str.isdigit()
+
+    (*) replace()   : str.replace(str1, str2)
+    (*) split()     : str.split(separator)
+    (*) find()      : str.find(text)
+'''
+
 testString = "Testing string"
 # text.lower()
 # ==========================
