@@ -285,5 +285,108 @@ letters = ["C", "a", "B", "A", "c", "b"]
 letters.sort()
 print(letters) # Output: ['A', 'B', 'C', 'a', 'b', 'c']
 
+'''
+case insensitive sort
+---------------------------------
+    (*) suppose you have to sort list of words. But starting letter of the some words are capitalized 
+    (*) in this type of situation, what you have to do is to specify a sort key 
+    (*) sort key must be lowercase/ uppercase
+'''
+
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+thislist.sort(key = str.lower)
+print(thislist) # Output: ['banana', 'cherry', 'Kiwi', 'Orange']
+
+'''
+reverse()
+---------------------------------
+    (*) reverses the current sorting order of the elements.
+'''
+
+thislist = ["banana", "Orange", "Kiwi", "cherry"]
+thislist.reverse()
+print(thislist)
 
 
+'''
+*****************************
+Copy lists
+*****************************
+'''
+
+'''
+Why we need copy() function?
+-----------------------------
+    (*) You cannot copy a list simply by typing list2 = list1, 
+        because: list2 will only be a reference to list1, 
+        and changes made in list1 will automatically also be made in list2.
+    (*) To differentiate, the copied list from original list 
+        we need the copy function
+'''
+
+# Example 01: without copy
+# =========================
+thislist = ["apple", "banana", "cherry"]
+mylist = thislist
+thislist[0] = "mangus"
+print(thislist) # Output: ['mangus', 'banana', 'cherry']
+print(mylist)   # Output: ['mangus', 'banana', 'cherry']
+
+# Example 02: with copy
+# =========================
+thislist = ["apple", "banana", "cherry"]
+mylist = thislist.copy()
+thislist[0] = "mangus"
+print(thislist) # Output: ['mangus', 'banana', 'cherry']
+print(mylist)   # Output: ['apple', 'banana', 'cherry']
+
+'''
+*****************************
+Combine 2 lists
+*****************************
+'''
+
+# 1st method: using + operator
+# ============================
+list1 = ["a", "b", "c"]
+list2 = [1, 2, 3]
+
+list3 = list1 + list2
+print(list3) # Output: ['a', 'b', 'c', 1, 2, 3]
+
+
+# 2nd method: using listName.append() function
+# append happens: letter by letter
+# ============================
+list1 = ["a", "b" , "c"]
+list2 = [1, 2, 3]
+
+for x in list2:
+  list1.append(x)
+
+print(list1) # Output: ['a', 'b', 'c', 1, 2, 3]
+
+
+# 3rd method: using listName.extend() function
+# ============================
+list1 = ["a", "b" , "c"]
+list2 = [1, 2, 3]
+
+list1.extend(list2)
+print(list1) # Output: ['a', 'b', 'c', 1, 2, 3]
+
+'''
+Short Note
+==============================
+* append()	    - Adds an element at the end of the list
+* clear()	    - Removes all the elements from the list
+* copy()	    - Returns a copy of the list
+* count()	    - Returns the number of elements with the specified value
+* extend()	    - Add the elements of a list (or any iterable), to the end of the current list
+* index()	    - Returns the index of the first element with the specified value
+* insert()	    - Adds an element at the specified position
+* pop()	        - Removes the element at the specified position
+* remove()	    - Removes the item with the specified value
+* reverse()	    - Reverses the order of the list
+* sort()	    - Sorts the list
+'''
