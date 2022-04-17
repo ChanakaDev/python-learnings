@@ -43,7 +43,7 @@ Lists  | Tuples | Sets | Dictionaries
 ------------- | ------------- | ------------- | -------------
 stores similar or different data types | stores similar or different data types | stores similar or different data types | store key value pairs
 new items added to the end of the list | text | text | text
-unordered | ordered | unordered | unordered
+ordered | ordered | unordered | unordered
 indexing possible | indexing possible | no indexing | access through keys
 duplicates allowed | duplicates allowed | no duplicates | no duplicate keys
 mutable | immutable | immutable | mutable
