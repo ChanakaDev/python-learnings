@@ -34,7 +34,7 @@
 19. Strings
 
 ### ✨ Important
-20. String formatting
+20. Function calls inside print()
 
 ### ✨ Collection data types
 21. Lists
