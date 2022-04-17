@@ -30,12 +30,17 @@
 ### ✨ Format strings
 18. String formatting
 
-### ✨ Other data types
+### ✨ Strings
 19. Strings
-20. Lists
-21. Tuples
-22. Sets
-23. Dictionary
+
+### ✨ Important
+20. String formatting
+
+### ✨ Collection data types
+21. Lists
+22. Tuples
+23. Sets
+24. Dictionary
 
 ### Comparison
 
@@ -53,29 +58,29 @@ myList = ["apple", "banana", "cherry"] | myTyple = ("apple", "banana", "cherry")
 - ummutable = cannot be changed
 
 ### ✨ Functions
-24. functions 1: why functions
-25. functions 2: arguments Vs. parameters
-26. functions 3: arbitrary/ var length arguments (*args)
-27. functions 4: keyword arguments
-28. functions 5: arbitrary keyword arguments (**kwargs)
-29. functions 6: list, tuple, set, dict as arguments
-30. functions 7: return
-31. functions 8: recursive functions
-32. functions 9: lambda/ anonymous functions
+25. functions 1: why functions
+26. functions 2: arguments Vs. parameters
+27. functions 3: arbitrary/ var length arguments (*args)
+28. functions 4: keyword arguments
+29. functions 5: arbitrary keyword arguments (**kwargs)
+30. functions 6: list, tuple, set, dict as arguments
+31. functions 7: return
+32. functions 8: recursive functions
+33. functions 9: lambda/ anonymous functions
 
 ### 🔥 OOP Concepts
-33. __ init __ constructor
-34. Encapsulation
-35. Inheritance
-36. Polymorphism
-37. Abstraction
+34. __ init __ constructor
+35. Encapsulation
+36. Inheritance
+37. Polymorphism
+38. Abstraction
 
 ### 🔥 Error & exception
-38. Exception handling
+39. Exception handling
 
 ### 🔥 Other topics
-39. topic name
 40. topic name
 41. topic name
+42. topic name
 
 ![banner image](banner.png)
