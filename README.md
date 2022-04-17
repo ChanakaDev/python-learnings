@@ -47,6 +47,7 @@ unordered | ordered | unordered | unordered
 indexing possible | indexing possible | no indexing | access through keys
 duplicates allowed | duplicates allowed | no duplicates | no duplicate keys
 mutable | immutable | immutable | mutable
+myList = ["apple", "banana", "cherry"] | myTyple = ("apple", "banana", "cherry") | mySet = {"apple", "banana", "cherry"} | myDict = { "brand": "Ford", "model": "Mustang", "year": 1964}
 
 - mutable = can be changed
 - ummutable = cannot be changed
