@@ -37,6 +37,20 @@
 22. Sets
 23. Dictionary
 
+###Comparison
+
+Lists  | Tuples | Sets | Dictionaries
+------------- | ------------- | ------------- | -------------
+stores similar or different data types | stores similar or different data types | stores similar or different data types | store key value pairs
+new items added to the end of the list | text | text | text
+unordered | ordered | unordered | unordered
+indexing possible | indexing possible | no indexing | access through keys
+duplicates allowed | duplicates allowed | no duplicates | no duplicate keys
+mutable | immutable | immutable | mutable
+
+- mutable = can be changed
+- ummutable = cannot be changed
+
 ### ✨ Functions
 24. functions 1: why functions
 25. functions 2: arguments Vs. parameters
